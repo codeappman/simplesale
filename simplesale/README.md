@@ -1,8 +1,8 @@
 # Assumption
 The message format is as follow.
-Type1: {"product":"apple","value":"£0.1"}
-Type2: {"product":"apple","amount":"20","value":"£0.1"}
-Type3: {"operation":"add","product":"apple","value":"£0.2"}
+-Type1: {"product":"apple","value":"£0.1"}
+-Type2: {"product":"apple","amount":"20","value":"£0.1"}
+-Type3: {"operation":"add","product":"apple","value":"£0.2"}
 
 # To Build
 1) mvn clean package
@@ -16,6 +16,7 @@ Please create or copy the sample input.txt to target folder
 
 
 # Sample Output
+...
 /******* summary per 10 sales *******/
 Product: apple, Amount: 24, Value: 16.60
 Product: banana, Amount: 31, Value: 3.10
@@ -55,3 +56,4 @@ Adjusted apple by 0.3 (add), 15 sale record(s) updated
 Adjusted apple by 0.3 (add), 17 sale record(s) updated
 Adjusted banana by 1.5 (multiply), 9 sale record(s) updated
 Paused, stop accepting new messages
+...
